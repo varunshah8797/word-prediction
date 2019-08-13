@@ -34,8 +34,8 @@ for i in range(length, len(tokens)):
     #print(line)
     #print()
 print(t)
-#with open('training_set_clean.txt', 'wb') as fp:
-#   pickle.dump(training_set_clean, fp)
+with open('training_set_clean.txt', 'wb') as fp:
+   pickle.dump(training_set_clean, fp)
 
 # IMPORTING THE TEXT FOR TRAINING OF THE MODEL
 #dataset_clean = open('training_set_clean.txt' , encoding='ISO-8859-1')
